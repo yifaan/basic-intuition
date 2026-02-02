@@ -1,7 +1,28 @@
-# 00_pytorch_warmup
+# Phase 0 — PyTorch Warmup
 
-*Phase goal and placeholder.*
+## Objective
+Rebuild fluency with Python + PyTorch fundamentals and training workflows.
 
-- **Objective:** briefly describe the focus for this phase.
-- **Done when:** note the minimal implementation or experiment that signals completion.
-- **Notes:** keep this folder self-contained and expand the README as work progresses.
+## Scope
+- Simple supervised learning (e.g., MNIST / CIFAR)
+- Explicit training loops
+- GPU usage (CUDA)
+- Debugging and sanity checks
+
+## Key concepts to learn
+- Tensors, modules, optimizers, losses
+- Device placement (CPU vs GPU)
+- Train vs eval mode
+- Overfitting tiny datasets as a correctness check
+
+## Done when
+- Can write a training loop from memory
+- Loss decreases reliably
+- Can overfit a very small dataset (e.g., 32 samples)
+- Comfortable debugging shape / device / dtype issues
+
+## Action items
+- Implement a minimal classifier with a manual training loop.
+- Add a tiny-dataset overfit test (e.g., 32 samples) as a correctness check.
+- Log loss/accuracy to verify training dynamics.
+- Add a short debugging checklist in this folder once you hit common issues.
