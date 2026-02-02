@@ -1,0 +1,13 @@
+# Core ML
+torch
+torchvision
+
+# Numeric + utilities
+numpy
+tqdm
+
+# Visualization / inspection
+matplotlib
+
+# Optional but very useful for debugging
+ipython
