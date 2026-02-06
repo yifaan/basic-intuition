@@ -20,9 +20,9 @@ Rebuild fluency with Python + PyTorch fundamentals and training workflows across
 # Warmup Labs (checklist)
 
 ## Lab 0 — Python + PyTorch fundamentals
-- [ ] Implement a tiny MLP classifier from scratch.
-- [ ] Write a manual training loop (forward → loss → backward → step → zero_grad).
-- [ ] Overfit 32 samples and log loss/accuracy.
+- [x] Implement a tiny MLP classifier from scratch.
+- [x] Write a manual training loop (forward → loss → backward → step → zero_grad).
+- [x] Overfit 32 samples and log loss/accuracy.
 - **From scratch:** Linear + ReLU (no `nn.Linear`).
 - **Done when:** loss approaches zero and gradients make sense.
 
